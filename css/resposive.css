@@ -1,0 +1,22 @@
+@media all and (max-width: 320px) {
+    header .nav-container{
+        height: 100px;
+        max-width: 100%;
+    }
+    header .nav-container .container{
+        margin: 0 auto;
+        padding: 2px 0;
+    }
+    .nav-container .container .navbar .navbar-brand {
+        padding: 0.5rem 2rem 0.5rem 0.5rem;
+    }
+    .nav-container .container .navbar .navbar-brand .brand>img {
+        height: 45px;
+    }
+    .nav-container .container .navbar .navbar-brand .logo-txt{
+        font-size: 25px;
+    }
+    .nav-container .container .navbar ul {
+        padding: 0 0 0 10rem;
+    }
+}
